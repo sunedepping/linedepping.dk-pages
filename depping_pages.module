@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Depping Pages feature.
+ */
+
+include_once 'depping_pages.features.inc';

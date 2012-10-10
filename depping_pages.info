@@ -1,0 +1,13 @@
+name = Depping Pages
+description = Feature with pages
+core = 7.x
+package = Depping
+version = 7.x-0.1
+project = depping_pages
+dependencies[] = features
+dependencies[] = field_sql_storage
+dependencies[] = node
+dependencies[] = text
+features[features_api][] = api:1
+features[field][] = node-depping_page-body
+features[node][] = depping_page
